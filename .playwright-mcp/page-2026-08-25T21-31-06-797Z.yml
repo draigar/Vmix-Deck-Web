@@ -1,0 +1,616 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - navigation [ref=f1e6]:
+        - link "vDeck vDeck Live" [ref=f1e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e8]:
+            - img "vDeck" [ref=f1e9]
+            - generic [ref=f1e10]: vDeck
+          - generic [ref=f1e11]: Live
+        - generic [ref=f1e13]:
+          - link "Features" [ref=f1e14] [cursor=pointer]:
+            - /url: /#features
+          - link "Docs" [ref=f1e16] [cursor=pointer]:
+            - /url: /docs
+          - link "Blog" [ref=f1e18] [cursor=pointer]:
+            - /url: /blog
+          - link "Changelogs v1.2.0" [ref=f1e20] [cursor=pointer]:
+            - /url: /changelogs
+            - generic [ref=f1e21]: Changelogs
+            - generic [ref=f1e22]: v1.2.0
+          - link "FAQs" [ref=f1e23] [cursor=pointer]:
+            - /url: /#faq
+        - generic [ref=f1e25]:
+          - link "Star vDeck on GitHub" [ref=f1e26] [cursor=pointer]:
+            - /url: https://github.com/francisbenjamin/vmixdeck
+            - generic [ref=f1e29]: Star
+            - generic [ref=f1e30]: "|"
+            - generic [ref=f1e31]: 1.4k
+          - button "Toggle Theme" [ref=f1e32]
+          - link "Sponsor" [ref=f1e40] [cursor=pointer]:
+            - /url: /thanks
+          - link "Download" [ref=f1e44] [cursor=pointer]:
+            - /url: /download
+    - main [ref=f1e49]:
+      - generic [ref=f1e51]:
+        - generic [ref=f1e52]: Free & Open-Source vMix Controller
+        - heading "Broadcast with precision, wirelessly." [level=1] [ref=f1e61]: Broadcast with precision,wirelessly.
+        - paragraph [ref=f1e62]: Turn your Mac, PC, iPad, or smartphone into a professional live switcher and Tally deck for vMix. Sub-frame latency, NDI video preview, and zero monthly subscriptions.
+        - generic [ref=f1e63]:
+          - link "Download vMix Deck" [ref=f1e64] [cursor=pointer]:
+            - /url: /download
+          - link "View on GitHub" [ref=f1e69] [cursor=pointer]:
+            - /url: https://github.com/francisbenjamin/vmixdeck
+        - generic [ref=f1e73]:
+          - generic [ref=f1e74]: macOS · Windows · Linux · iOS · Android
+          - generic [ref=f1e75]: •
+          - generic [ref=f1e76]: Zero Cloud Accounts Required
+        - generic [ref=f1e82]:
+          - generic [ref=f1e83]:
+            - generic [ref=f1e84]:
+              - generic [ref=f1e85] [cursor=pointer]
+              - generic [ref=f1e86] [cursor=pointer]
+              - generic [ref=f1e87] [cursor=pointer]
+              - generic [ref=f1e88]:
+                - generic [ref=f1e89]: vMix Deck Pro
+                - generic [ref=f1e90]: /
+                - generic [ref=f1e91]: 192.168.1.120:8088
+            - generic [ref=f1e93]:
+              - generic [ref=f1e94]: 0.8ms
+              - generic [ref=f1e99]: REC 01:24:18
+              - generic [ref=f1e103]: STREAM 1080p60
+          - generic [ref=f1e110]:
+            - generic [ref=f1e111]:
+              - generic [ref=f1e112]:
+                - generic [ref=f1e113]:
+                  - generic [ref=f1e114]: PREVIEW (STANDBY)
+                  - generic [ref=f1e116]: "Input #2"
+                - generic [ref=f1e118]:
+                  - paragraph [ref=f1e123]: Cam 2 (Side Angle)
+                  - paragraph [ref=f1e124]: NDI HD · Next on Preview Bus
+                - generic [ref=f1e125]:
+                  - generic [ref=f1e126]: NDI Stream Active
+                  - generic [ref=f1e128]: 59.94 FPS · 1080p
+              - generic [ref=f1e129]:
+                - generic [ref=f1e130]:
+                  - generic [ref=f1e131]: ON-AIR (PROGRAM)
+                  - generic [ref=f1e133]: "Input #1"
+                - generic [ref=f1e135]:
+                  - paragraph [ref=f1e140]: Cam 1 (Main Host)
+                  - paragraph [ref=f1e141]: ● BROADCAST LIVE MASTER
+                - generic [ref=f1e142]:
+                  - generic [ref=f1e143]: Master Output
+                  - generic [ref=f1e144]: LIVE ON YOUTUBE & TWITCH
+            - generic [ref=f1e145]:
+              - generic [ref=f1e146]:
+                - generic [ref=f1e147]:
+                  - generic [ref=f1e148]: Program Bus (Live Direct Cut)
+                  - generic [ref=f1e150]: Tap input to hot-switch
+                - generic [ref=f1e151]:
+                  - button "#1 Cam 1 (Main Host) 4K SDI" [ref=f1e152] [cursor=pointer]:
+                    - generic [ref=f1e153]: "#1"
+                    - paragraph [ref=f1e156]: Cam 1 (Main Host)
+                    - generic [ref=f1e157]: 4K SDI
+                  - button "#2 Cam 2 (Side Angle) NDI HD" [ref=f1e158] [cursor=pointer]:
+                    - generic [ref=f1e159]: "#2"
+                    - paragraph [ref=f1e161]: Cam 2 (Side Angle)
+                    - generic [ref=f1e162]: NDI HD
+                  - button "#3 Cam 3 (Audience) PTZ 1080p" [ref=f1e163] [cursor=pointer]:
+                    - generic [ref=f1e164]: "#3"
+                    - paragraph [ref=f1e166]: Cam 3 (Audience)
+                    - generic [ref=f1e167]: PTZ 1080p
+                  - button "#4 Screen Share / PPT Display Capture" [ref=f1e168] [cursor=pointer]:
+                    - generic [ref=f1e169]: "#4"
+                    - paragraph [ref=f1e171]: Screen Share / PPT
+                    - generic [ref=f1e172]: Display Capture
+                  - button "#5 Lower Third Titles GT Title" [ref=f1e173] [cursor=pointer]:
+                    - generic [ref=f1e174]: "#5"
+                    - paragraph [ref=f1e176]: Lower Third Titles
+                    - generic [ref=f1e177]: GT Title
+                  - button "#6 Stinger Promo Clip Video MP4" [ref=f1e178] [cursor=pointer]:
+                    - generic [ref=f1e179]: "#6"
+                    - paragraph [ref=f1e181]: Stinger Promo Clip
+                    - generic [ref=f1e182]: Video MP4
+              - generic [ref=f1e183]:
+                - generic [ref=f1e184]:
+                  - generic [ref=f1e185]: Preview Bus (Next Selection)
+                  - generic [ref=f1e187]: Select next camera/graphic
+                - generic [ref=f1e188]:
+                  - button "#1 Cam 1 (Main Host) 4K SDI" [ref=f1e189] [cursor=pointer]:
+                    - generic [ref=f1e190]: "#1"
+                    - paragraph [ref=f1e192]: Cam 1 (Main Host)
+                    - generic [ref=f1e193]: 4K SDI
+                  - button "#2 Cam 2 (Side Angle) NDI HD" [ref=f1e194] [cursor=pointer]:
+                    - generic [ref=f1e195]: "#2"
+                    - paragraph [ref=f1e198]: Cam 2 (Side Angle)
+                    - generic [ref=f1e199]: NDI HD
+                  - button "#3 Cam 3 (Audience) PTZ 1080p" [ref=f1e200] [cursor=pointer]:
+                    - generic [ref=f1e201]: "#3"
+                    - paragraph [ref=f1e203]: Cam 3 (Audience)
+                    - generic [ref=f1e204]: PTZ 1080p
+                  - button "#4 Screen Share / PPT Display Capture" [ref=f1e205] [cursor=pointer]:
+                    - generic [ref=f1e206]: "#4"
+                    - paragraph [ref=f1e208]: Screen Share / PPT
+                    - generic [ref=f1e209]: Display Capture
+                  - button "#5 Lower Third Titles GT Title" [ref=f1e210] [cursor=pointer]:
+                    - generic [ref=f1e211]: "#5"
+                    - paragraph [ref=f1e213]: Lower Third Titles
+                    - generic [ref=f1e214]: GT Title
+                  - button "#6 Stinger Promo Clip Video MP4" [ref=f1e215] [cursor=pointer]:
+                    - generic [ref=f1e216]: "#6"
+                    - paragraph [ref=f1e218]: Stinger Promo Clip
+                    - generic [ref=f1e219]: Video MP4
+            - generic [ref=f1e220]:
+              - generic [ref=f1e221]:
+                - button "CUT" [ref=f1e222] [cursor=pointer]
+                - button "AUTO (500ms)" [ref=f1e227] [cursor=pointer]
+                - button "FTB" [ref=f1e232] [cursor=pointer]
+              - generic [ref=f1e234]:
+                - generic [ref=f1e240]:
+                  - generic [ref=f1e241]: MASTER AUDIO
+                  - generic [ref=f1e242]: "-6 dB"
+                - button "TALLY" [ref=f1e246] [cursor=pointer]
+      - generic [ref=f1e248]:
+        - generic [ref=f1e249]: Community Milestone Achieved
+        - heading "Over 10,000+ Live Broadcasts Powered Worldwide" [level=2] [ref=f1e254]
+        - paragraph [ref=f1e255]: Thank you to the global production community! vMix Deck is 100% free and open-source, maintained with the support of broadcast engineers, churches, and live streamers.
+        - generic [ref=f1e257]:
+          - generic [ref=f1e258]: 100% Funded for NDI & Test Lab
+          - generic [ref=f1e259]: $1,500 / $1,500 goal
+        - generic [ref=f1e262]:
+          - generic [ref=f1e263]:
+            - generic "Alex Rivera (Church AV Director)" [ref=f1e264] [cursor=pointer]: AR
+            - generic "Sarah Chen (Esports Broadcast Lead)" [ref=f1e266] [cursor=pointer]: SC
+            - generic "Marcus Novak (Live Stream Engineer)" [ref=f1e268] [cursor=pointer]: MN
+            - generic "David Kim (Conference Producer)" [ref=f1e270] [cursor=pointer]: DK
+            - generic "Emma Watson (Studio Technical Director)" [ref=f1e272] [cursor=pointer]: EW
+            - link "+120" [ref=f1e274] [cursor=pointer]:
+              - /url: /thanks
+          - link "Meet our community supporters & sponsors →" [ref=f1e275] [cursor=pointer]:
+            - /url: /thanks
+        - generic [ref=f1e276]:
+          - link "Sponsor on GitHub" [ref=f1e277] [cursor=pointer]:
+            - /url: https://github.com/francisbenjamin/vmixdeck
+          - link "Support the Project" [ref=f1e281] [cursor=pointer]:
+            - /url: /thanks
+      - generic [ref=f1e286]:
+        - generic [ref=f1e287]:
+          - generic [ref=f1e288]: Broadcast Architecture
+          - heading "A powerful suite of broadcast tools, refined for simplicity." [level=2] [ref=f1e289]: A powerful suite of broadcast tools,refined for simplicity.
+          - paragraph [ref=f1e290]: Everything you need from a professional hardware stream controller, engineered into an ultra-low latency, cross-platform app.
+        - generic [ref=f1e291]:
+          - generic [ref=f1e303]:
+            - generic [ref=f1e304]: Core Control
+            - heading "Default Switcher Console" [level=3] [ref=f1e305]
+            - paragraph [ref=f1e306]: Full Program and Preview bus switching, Cut, Auto transitions, and Fade-to-Black right at your fingertips.
+          - generic [ref=f1e317]:
+            - generic [ref=f1e318]: Customization
+            - heading "Custom Deck Builder" [level=3] [ref=f1e319]
+            - paragraph [ref=f1e320]: Create unlimited grid layouts from 3x3 to 6x8 with drag-and-drop actions, custom labels, icons, and colors.
+          - generic [ref=f1e328]:
+            - generic [ref=f1e329]: Camera Crew
+            - heading "Zero-Latency Tally Mode" [level=3] [ref=f1e330]
+            - paragraph [ref=f1e331]: Turn any smartphone into a vibrant wireless Tally light. Bold Red for Live, Green for Preview, zero hardware setup.
+          - generic [ref=f1e339]:
+            - generic [ref=f1e340]: Video Return
+            - heading "NDI PiP Video Monitoring" [level=3] [ref=f1e341]
+            - paragraph [ref=f1e342]: Monitor your camera inputs and program output in real-time with smooth floating Picture-in-Picture NDI video feeds.
+          - generic [ref=f1e349]:
+            - generic [ref=f1e350]: Audio Engineering
+            - heading "Audio Mixer & Bus Routing" [level=3] [ref=f1e351]
+            - paragraph [ref=f1e352]: Control master audio levels, headphone mixes, and A-G auxiliary routing buses with responsive peak meters.
+          - generic [ref=f1e357]:
+            - generic [ref=f1e358]: Automation
+            - heading "Multi-Action Scripting" [level=3] [ref=f1e359]
+            - paragraph [ref=f1e360]: "Trigger complex broadcast sequences: switch cameras, play stinger graphics, trigger lower thirds, and adjust audio in 1 tap."
+          - generic [ref=f1e367]:
+            - generic [ref=f1e368]: Broadcast Control
+            - heading "Stream & Record Triggers" [level=3] [ref=f1e369]
+            - paragraph [ref=f1e370]: Start/stop master recording, trigger multi-stream destinations, and toggle external outputs with swipe safety guards.
+          - generic [ref=f1e376]:
+            - generic [ref=f1e377]: Network Security
+            - heading "100% Offline & Private" [level=3] [ref=f1e378]
+            - paragraph [ref=f1e379]: Direct local TCP and HTTP API communication with vMix. No accounts required, no telemetry, and zero cloud dependency.
+          - generic [ref=f1e386]:
+            - generic [ref=f1e387]: Show Management
+            - heading "Profile Sync & Import/Export" [level=3] [ref=f1e388]
+            - paragraph [ref=f1e389]: Instantly export your button profiles and import customized layouts for different productions, venues, and clients.
+      - generic [ref=f1e391]:
+        - generic [ref=f1e392]:
+          - generic [ref=f1e393]: App Previews
+          - heading "See vMix Deck in Action" [level=2] [ref=f1e394]
+          - paragraph [ref=f1e395]: High-fidelity control surfaces designed for phones, tablets, and desktop workstations.
+        - generic [ref=f1e396]:
+          - generic [ref=f1e397] [cursor=pointer]:
+            - generic [ref=f1e400]:
+              - generic [ref=f1e401]:
+                - generic [ref=f1e402]: ● PROGRAM 1 (4K SDI)
+                - generic [ref=f1e403]: ● PREVIEW 2 (NDI)
+              - generic [ref=f1e404]:
+                - generic [ref=f1e405]: CAM 1
+                - generic [ref=f1e406]: CAM 2
+                - generic [ref=f1e407]: CAM 3
+                - generic [ref=f1e408]: MEDIA
+                - generic [ref=f1e409]: SLOMO
+                - generic [ref=f1e410]: PPT
+                - generic [ref=f1e411]: TITLES
+                - generic [ref=f1e412]: STINGER
+              - generic [ref=f1e413]:
+                - generic [ref=f1e414]: CUT / AUTO 500ms
+                - generic [ref=f1e415]: "FPS: 59.94"
+            - generic [ref=f1e423]:
+              - generic [ref=f1e424]: Broadcast Switcher
+              - heading "Live Production Switcher" [level=3] [ref=f1e429]
+              - paragraph [ref=f1e430]: Intuitive two-bus Program/Preview switcher with hardware-speed Cut and Auto transitions.
+          - generic [ref=f1e431] [cursor=pointer]:
+            - generic [ref=f1e434]:
+              - generic [ref=f1e435]:
+                - generic [ref=f1e436]: "DECK: SUNDAY_LIVE_SHOW"
+                - generic [ref=f1e437]: 4x3 Grid
+              - generic [ref=f1e438]:
+                - generic [ref=f1e439]: Intro
+                - generic [ref=f1e440]: Overlay 1
+                - generic [ref=f1e441]: Overlay 2
+                - generic [ref=f1e442]: Replay
+                - generic [ref=f1e443]: Lower 3rd
+                - generic [ref=f1e444]: Music Mute
+                - generic [ref=f1e445]: Slide Next
+                - generic [ref=f1e446]: End Show
+              - generic [ref=f1e447]: Drag & Drop Button Customizer
+            - generic [ref=f1e455]:
+              - generic [ref=f1e456]: Studio Customization
+              - heading "Custom Deck Grid Builder" [level=3] [ref=f1e463]
+              - paragraph [ref=f1e464]: Build custom macro buttons, arrange 4x4 or 6x8 grids, and trigger complex vMix scripts.
+          - generic [ref=f1e465] [cursor=pointer]:
+            - generic [ref=f1e468]:
+              - heading "CAM 1" [level=4] [ref=f1e470]
+              - paragraph [ref=f1e471]: ● ON-AIR BROADCAST
+            - generic [ref=f1e479]:
+              - generic [ref=f1e480]: Wireless Tally
+              - heading "Studio Camera Tally Light" [level=3] [ref=f1e488]
+              - paragraph [ref=f1e489]: Turn mobile screens into clear Red (Live) and Green (Preview) indicators for camera operators.
+          - generic [ref=f1e490] [cursor=pointer]:
+            - generic [ref=f1e493]:
+              - generic [ref=f1e494]:
+                - generic [ref=f1e495]: "NDI: DESKTOP-VMIX (Program)"
+                - generic [ref=f1e496]: 1080p60
+              - generic [ref=f1e497]:
+                - generic [ref=f1e498]:
+                  - text: Live Video Stream Feed
+                  - paragraph [ref=f1e499]: Main Presentation + Host PIP
+                - generic [ref=f1e500]: LIVE NDI
+              - generic [ref=f1e501]: "Latency: 16ms (Local WiFi 6)"
+            - generic [ref=f1e509]:
+              - generic [ref=f1e510]: Video Monitoring
+              - heading "NDI Video Return & PiP" [level=3] [ref=f1e516]
+              - paragraph [ref=f1e517]: Monitor camera angles directly on your switcher surface with sub-frame NDI video previews.
+          - generic [ref=f1e518] [cursor=pointer]:
+            - generic [ref=f1e521]:
+              - generic [ref=f1e522]:
+                - generic [ref=f1e523]: AUDIO BUS MIXER
+                - generic [ref=f1e524]: 0 dB MASTER
+              - generic [ref=f1e525]:
+                - generic [ref=f1e526]: MASTER
+                - generic [ref=f1e530]: MIC 1
+                - generic [ref=f1e534]: MUSIC
+                - generic [ref=f1e538]: BUS A
+              - generic [ref=f1e542]:
+                - generic [ref=f1e543]: Mute / Solo Active
+                - generic [ref=f1e544]: "Headphone: ON"
+            - generic [ref=f1e552]:
+              - generic [ref=f1e553]: Audio Management
+              - heading "Audio Mixer & Fader Banks" [level=3] [ref=f1e556]
+              - paragraph [ref=f1e557]: Fader controls for master audio, microphone levels, background music, and auxiliary buses.
+          - generic [ref=f1e558] [cursor=pointer]:
+            - generic [ref=f1e561]:
+              - generic [ref=f1e562]:
+                - generic [ref=f1e563]: CONNECTION MANAGER
+                - generic [ref=f1e564]: READY
+              - generic [ref=f1e565]:
+                - generic [ref=f1e566]:
+                  - generic [ref=f1e567]:
+                    - paragraph [ref=f1e568]: Main Broadcast Rig (Studio A)
+                    - paragraph [ref=f1e569]: 192.168.1.120:8088
+                  - generic [ref=f1e570]: CONNECTED
+                - generic [ref=f1e571]:
+                  - generic [ref=f1e572]:
+                    - paragraph [ref=f1e573]: Backup Switcher (Studio B)
+                    - paragraph [ref=f1e574]: 192.168.1.121:8088
+                  - generic [ref=f1e575]: Standby
+              - generic [ref=f1e576]: Zero-Config TCP Socket
+            - generic [ref=f1e584]:
+              - generic [ref=f1e585]: Zero Setup
+              - heading "Fast LAN Auto-Connect" [level=3] [ref=f1e591]
+              - paragraph [ref=f1e592]: Automatic IP scanning, port 8088 handshake, and instant reconnect upon network dropouts.
+      - generic [ref=f1e594]:
+        - generic [ref=f1e595]:
+          - generic [ref=f1e596]: Broadcast Community
+          - heading "Loved by Technical Directors & Crews" [level=2] [ref=f1e597]
+          - paragraph [ref=f1e598]: Real feedback from production teams, churches, and live streamers worldwide.
+        - generic [ref=f1e600]:
+          - generic [ref=f1e601]:
+            - generic [ref=f1e602]:
+              - paragraph [ref=f1e603]: “Replaced $400 hardware stream decks across our 3-camera church setup with old iPads running vMix Deck. The tally mode alone saved our camera ops countless missed cues.”
+              - generic [ref=f1e604]:
+                - generic [ref=f1e605]:
+                  - generic [ref=f1e606]: PD
+                  - generic [ref=f1e607]:
+                    - paragraph [ref=f1e608]: u/PastorDan_AV
+                    - paragraph [ref=f1e609]: Church Production Director
+                - generic [ref=f1e610]: "42"
+            - generic [ref=f1e614]:
+              - paragraph [ref=f1e615]: “Sub-millisecond trigger speed over local WiFi. We do high-speed esports switching where delays are intolerable — vMix Deck handled a 10-hour tournament with zero hiccups.”
+              - generic [ref=f1e616]:
+                - generic [ref=f1e617]:
+                  - generic [ref=f1e618]: AC
+                  - generic [ref=f1e619]:
+                    - paragraph [ref=f1e620]: u/ApexCaster_Gamer
+                    - paragraph [ref=f1e621]: Esports Broadcast Lead
+                - generic [ref=f1e622]: "35"
+            - generic [ref=f1e626]:
+              - paragraph [ref=f1e627]: “The custom macro builder is gold. I created one-touch buttons that fade audio, change camera angle, and trigger lower-third overlays simultaneously. 10/10.”
+              - generic [ref=f1e628]:
+                - generic [ref=f1e629]:
+                  - generic [ref=f1e630]: ST
+                  - generic [ref=f1e631]:
+                    - paragraph [ref=f1e632]: u/StudioTech_Leo
+                    - paragraph [ref=f1e633]: Broadcast Engineer
+                - generic [ref=f1e634]: "28"
+            - generic [ref=f1e638]:
+              - paragraph [ref=f1e639]: “No accounts, no cloud nonsense, no subscription fees. Just direct TCP connection to vMix port 8088. This is how professional software should be built.”
+              - generic [ref=f1e640]:
+                - generic [ref=f1e641]:
+                  - generic [ref=f1e642]: LA
+                  - generic [ref=f1e643]:
+                    - paragraph [ref=f1e644]: u/LinuxAV_Nerd
+                    - paragraph [ref=f1e645]: Live Video Specialist
+                - generic [ref=f1e646]: "56"
+            - generic [ref=f1e650]:
+              - paragraph [ref=f1e651]: “Replaced $400 hardware stream decks across our 3-camera church setup with old iPads running vMix Deck. The tally mode alone saved our camera ops countless missed cues.”
+              - generic [ref=f1e652]:
+                - generic [ref=f1e653]:
+                  - generic [ref=f1e654]: PD
+                  - generic [ref=f1e655]:
+                    - paragraph [ref=f1e656]: u/PastorDan_AV
+                    - paragraph [ref=f1e657]: Church Production Director
+                - generic [ref=f1e658]: "42"
+            - generic [ref=f1e662]:
+              - paragraph [ref=f1e663]: “Sub-millisecond trigger speed over local WiFi. We do high-speed esports switching where delays are intolerable — vMix Deck handled a 10-hour tournament with zero hiccups.”
+              - generic [ref=f1e664]:
+                - generic [ref=f1e665]:
+                  - generic [ref=f1e666]: AC
+                  - generic [ref=f1e667]:
+                    - paragraph [ref=f1e668]: u/ApexCaster_Gamer
+                    - paragraph [ref=f1e669]: Esports Broadcast Lead
+                - generic [ref=f1e670]: "35"
+            - generic [ref=f1e674]:
+              - paragraph [ref=f1e675]: “The custom macro builder is gold. I created one-touch buttons that fade audio, change camera angle, and trigger lower-third overlays simultaneously. 10/10.”
+              - generic [ref=f1e676]:
+                - generic [ref=f1e677]:
+                  - generic [ref=f1e678]: ST
+                  - generic [ref=f1e679]:
+                    - paragraph [ref=f1e680]: u/StudioTech_Leo
+                    - paragraph [ref=f1e681]: Broadcast Engineer
+                - generic [ref=f1e682]: "28"
+            - generic [ref=f1e686]:
+              - paragraph [ref=f1e687]: “No accounts, no cloud nonsense, no subscription fees. Just direct TCP connection to vMix port 8088. This is how professional software should be built.”
+              - generic [ref=f1e688]:
+                - generic [ref=f1e689]:
+                  - generic [ref=f1e690]: LA
+                  - generic [ref=f1e691]:
+                    - paragraph [ref=f1e692]: u/LinuxAV_Nerd
+                    - paragraph [ref=f1e693]: Live Video Specialist
+                - generic [ref=f1e694]: "56"
+          - generic [ref=f1e698]:
+            - generic [ref=f1e699]:
+              - paragraph [ref=f1e700]: “Having NDI live preview right on the deck button surface gives me total confidence before hitting CUT. I can see talent is in frame before taking them live.”
+              - generic [ref=f1e701]:
+                - generic [ref=f1e702]:
+                  - generic [ref=f1e703]: LS
+                  - generic [ref=f1e704]:
+                    - paragraph [ref=f1e705]: u/LiveSwitch_Pro
+                    - paragraph [ref=f1e706]: Technical Director
+                - generic [ref=f1e707]: "64"
+            - generic [ref=f1e711]:
+              - paragraph [ref=f1e712]: “Our volunteer crew learned to operate vMix in 5 minutes using the simplified default switcher layout. It takes all the scary complexity out of live streaming.”
+              - generic [ref=f1e713]:
+                - generic [ref=f1e714]:
+                  - generic [ref=f1e715]: MM
+                  - generic [ref=f1e716]:
+                    - paragraph [ref=f1e717]: u/MediaMinistry_Sarah
+                    - paragraph [ref=f1e718]: Non-Profit AV Coordinator
+                - generic [ref=f1e719]: "19"
+            - generic [ref=f1e723]:
+              - paragraph [ref=f1e724]: “The multi-action delayed triggers allowed us to automate our entire pre-show countdown sequence with intro stinger and music swell. Truly incredible app.”
+              - generic [ref=f1e725]:
+                - generic [ref=f1e726]:
+                  - generic [ref=f1e727]: SP
+                  - generic [ref=f1e728]:
+                    - paragraph [ref=f1e729]: u/StreamPro_Mike
+                    - paragraph [ref=f1e730]: Corporate AV Producer
+                - generic [ref=f1e731]: "31"
+            - generic [ref=f1e735]:
+              - paragraph [ref=f1e736]: “Best vMix companion app by far. Clean UI, rock-solid stability, and the instant dark mode looks fantastic in a dim production control room.”
+              - generic [ref=f1e737]:
+                - generic [ref=f1e738]:
+                  - generic [ref=f1e739]: BD
+                  - generic [ref=f1e740]:
+                    - paragraph [ref=f1e741]: u/BroadcasterDave
+                    - paragraph [ref=f1e742]: OB Van Engineer
+                - generic [ref=f1e743]: "47"
+            - generic [ref=f1e747]:
+              - paragraph [ref=f1e748]: “Having NDI live preview right on the deck button surface gives me total confidence before hitting CUT. I can see talent is in frame before taking them live.”
+              - generic [ref=f1e749]:
+                - generic [ref=f1e750]:
+                  - generic [ref=f1e751]: LS
+                  - generic [ref=f1e752]:
+                    - paragraph [ref=f1e753]: u/LiveSwitch_Pro
+                    - paragraph [ref=f1e754]: Technical Director
+                - generic [ref=f1e755]: "64"
+            - generic [ref=f1e759]:
+              - paragraph [ref=f1e760]: “Our volunteer crew learned to operate vMix in 5 minutes using the simplified default switcher layout. It takes all the scary complexity out of live streaming.”
+              - generic [ref=f1e761]:
+                - generic [ref=f1e762]:
+                  - generic [ref=f1e763]: MM
+                  - generic [ref=f1e764]:
+                    - paragraph [ref=f1e765]: u/MediaMinistry_Sarah
+                    - paragraph [ref=f1e766]: Non-Profit AV Coordinator
+                - generic [ref=f1e767]: "19"
+            - generic [ref=f1e771]:
+              - paragraph [ref=f1e772]: “The multi-action delayed triggers allowed us to automate our entire pre-show countdown sequence with intro stinger and music swell. Truly incredible app.”
+              - generic [ref=f1e773]:
+                - generic [ref=f1e774]:
+                  - generic [ref=f1e775]: SP
+                  - generic [ref=f1e776]:
+                    - paragraph [ref=f1e777]: u/StreamPro_Mike
+                    - paragraph [ref=f1e778]: Corporate AV Producer
+                - generic [ref=f1e779]: "31"
+            - generic [ref=f1e783]:
+              - paragraph [ref=f1e784]: “Best vMix companion app by far. Clean UI, rock-solid stability, and the instant dark mode looks fantastic in a dim production control room.”
+              - generic [ref=f1e785]:
+                - generic [ref=f1e786]:
+                  - generic [ref=f1e787]: BD
+                  - generic [ref=f1e788]:
+                    - paragraph [ref=f1e789]: u/BroadcasterDave
+                    - paragraph [ref=f1e790]: OB Van Engineer
+                - generic [ref=f1e791]: "47"
+      - generic [ref=f1e796]:
+        - generic [ref=f1e797]:
+          - generic [ref=f1e798]: Help & FAQ
+          - heading "Questions? We've Got Answers." [level=2] [ref=f1e799]
+          - paragraph [ref=f1e800]: Everything you need to know about setting up and broadcasting with vMix Deck.
+        - generic [ref=f1e801]:
+          - generic [ref=f1e802]:
+            - button "How do I connect vMix Deck to my vMix PC?" [ref=f1e803] [cursor=pointer]
+            - generic [ref=f1e810]:
+              - generic [ref=f1e811]:
+                - button "1 Enable Web Controller" [ref=f1e812] [cursor=pointer]:
+                  - generic [ref=f1e813]: "1"
+                  - generic [ref=f1e814]: Enable Web Controller
+                - button "2 Enter Local LAN IP" [ref=f1e815] [cursor=pointer]:
+                  - generic [ref=f1e816]: "2"
+                  - generic [ref=f1e817]: Enter Local LAN IP
+                - button "3 Instant Sync" [ref=f1e818] [cursor=pointer]:
+                  - generic [ref=f1e819]: "3"
+                  - generic [ref=f1e820]: Instant Sync
+              - generic [ref=f1e822]:
+                - paragraph [ref=f1e823]:
+                  - strong [ref=f1e824]: "Step 1:"
+                  - text: In vMix, open
+                  - strong [ref=f1e825]: Settings > Web Controller
+                  - text: ", check"
+                  - strong [ref=f1e826]: “Enable Web Controller”
+                  - text: ", and ensure Port is set to"
+                  - strong [ref=f1e827]: "8088"
+                  - text: .
+                - generic [ref=f1e828]:
+                  - generic [ref=f1e829]: "vMix Settings → Web Controller (Port 8088: Enabled)"
+                  - generic [ref=f1e830]: ACTIVE
+              - generic [ref=f1e831]:
+                - paragraph [ref=f1e832]:
+                  - generic [ref=f1e835]: "Verify connection from Terminal / Command Prompt:"
+                - generic [ref=f1e836]:
+                  - code [ref=f1e837]: curl -s http://192.168.1.120:8088/api | head -n 5
+                  - button "Copy command" [ref=f1e838] [cursor=pointer]
+          - button "Is vMix Deck really 100% free and open-source?" [ref=f1e843] [cursor=pointer]
+          - button "Can multiple smartphones and iPads connect to one vMix PC?" [ref=f1e848] [cursor=pointer]
+          - button "How does wireless NDI video monitoring work in vMix Deck?" [ref=f1e853] [cursor=pointer]
+          - button "What should I check if the connection fails or times out?" [ref=f1e858] [cursor=pointer]
+          - button "Which platforms and operating systems are supported?" [ref=f1e863] [cursor=pointer]
+        - generic [ref=f1e867]:
+          - text: Still have questions? Check our
+          - link "Documentation" [ref=f1e868] [cursor=pointer]:
+            - /url: /docs
+          - text: or join our
+          - link "Discord Community" [ref=f1e869] [cursor=pointer]:
+            - /url: https://discord.gg
+          - text: .
+      - generic [ref=f1e871]:
+        - generic [ref=f1e872]: 100% Free · No Subscription · Open Source
+        - heading "Ready to Elevate Your Live Production Workflow?" [level=2] [ref=f1e877]: Ready to Elevate YourLive Production Workflow?
+        - paragraph [ref=f1e878]: Join thousands of technical directors, churches, and live streamers broadcasting with ultra-low latency wireless control.
+        - generic [ref=f1e879]:
+          - link "Download vMix Deck" [ref=f1e880] [cursor=pointer]:
+            - /url: /download
+          - link "View Source on GitHub" [ref=f1e885] [cursor=pointer]:
+            - /url: https://github.com/francisbenjamin/vmixdeck
+        - generic [ref=f1e889]:
+          - generic [ref=f1e890]: macOS (Apple Silicon & Intel)
+          - generic [ref=f1e894]: •
+          - generic [ref=f1e895]: Windows 10 / 11
+          - generic [ref=f1e898]: •
+          - generic [ref=f1e899]: iOS & Android
+    - contentinfo [ref=f1e902]:
+      - generic [ref=f1e903]:
+        - generic [ref=f1e904]:
+          - generic [ref=f1e905]:
+            - link "vDeck vDeck" [ref=f1e906] [cursor=pointer]:
+              - /url: /
+              - generic [ref=f1e907]:
+                - img "vDeck" [ref=f1e908]
+                - generic [ref=f1e909]: vDeck
+            - paragraph [ref=f1e910]: Professional wireless switcher, custom action deck, and low-latency Tally lights for vMix live productions.
+            - generic [ref=f1e911]:
+              - link "GitHub Repository" [ref=f1e912] [cursor=pointer]:
+                - /url: https://github.com/francisbenjamin/vmixdeck
+              - link "Twitter Community" [ref=f1e915] [cursor=pointer]:
+                - /url: https://twitter.com
+              - link "Discord Community" [ref=f1e918] [cursor=pointer]:
+                - /url: https://discord.gg
+          - generic [ref=f1e921]:
+            - heading "Product" [level=4] [ref=f1e922]
+            - list [ref=f1e923]:
+              - listitem [ref=f1e924]:
+                - link "Features" [ref=f1e925] [cursor=pointer]:
+                  - /url: /#features
+              - listitem [ref=f1e926]:
+                - link "Download" [ref=f1e927] [cursor=pointer]:
+                  - /url: /download
+              - listitem [ref=f1e928]:
+                - link "Changelogs" [ref=f1e929] [cursor=pointer]:
+                  - /url: /changelogs
+              - listitem [ref=f1e930]:
+                - link "App Previews" [ref=f1e931] [cursor=pointer]:
+                  - /url: /#preview
+          - generic [ref=f1e932]:
+            - heading "Resources" [level=4] [ref=f1e933]
+            - list [ref=f1e934]:
+              - listitem [ref=f1e935]:
+                - link "Documentation" [ref=f1e936] [cursor=pointer]:
+                  - /url: /docs
+              - listitem [ref=f1e937]:
+                - link "Blog & Guides" [ref=f1e938] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=f1e939]:
+                - link "Source Code" [ref=f1e940] [cursor=pointer]:
+                  - /url: https://github.com/francisbenjamin/vmixdeck
+              - listitem [ref=f1e941]:
+                - link "Network Setup FAQ" [ref=f1e942] [cursor=pointer]:
+                  - /url: /#faq
+          - generic [ref=f1e943]:
+            - heading "Community" [level=4] [ref=f1e944]
+            - list [ref=f1e945]:
+              - listitem [ref=f1e946]:
+                - link "Sponsors & Backers" [ref=f1e947] [cursor=pointer]:
+                  - /url: /thanks
+              - listitem [ref=f1e951]:
+                - link "Issue Tracker" [ref=f1e952] [cursor=pointer]:
+                  - /url: https://github.com/francisbenjamin/vmixdeck/issues
+              - listitem [ref=f1e953]:
+                - link "Discord Server" [ref=f1e954] [cursor=pointer]:
+                  - /url: https://discord.gg
+              - listitem [ref=f1e955]:
+                - link "Open Source License" [ref=f1e956] [cursor=pointer]:
+                  - /url: https://github.com/francisbenjamin/vmixdeck/blob/main/LICENSE
+        - generic [ref=f1e957]:
+          - paragraph [ref=f1e958]: © 2026 vDeck. Built for live broadcast professionals.
+          - generic [ref=f1e959]:
+            - generic [ref=f1e960]: vMix Web API 8088 Compatible
+            - generic [ref=f1e962]: •
+            - link "Releases" [ref=f1e963] [cursor=pointer]:
+              - /url: /download
+            - generic [ref=f1e964]: •
+            - link "Credits" [ref=f1e965] [cursor=pointer]:
+              - /url: /thanks
+  - button "Open Next.js Dev Tools" [ref=f1e971] [cursor=pointer]
