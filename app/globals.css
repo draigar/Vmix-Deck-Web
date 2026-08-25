@@ -1,0 +1,259 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer theme {
+  :root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", system-ui, sans-serif;
+    --font-mono: "SF Mono", ui-monospace, "Cascadia Code", Menlo, monospace;
+    
+    /* Apple Clean Light Palette */
+    --bg-page: #fbfbfd;
+    --surface: #ffffff;
+    --surface-raised: #f5f5f7;
+    --surface-subtle: #ebebf0;
+    --surface-muted: #f2f2f7;
+    
+    --border: rgba(0, 0, 0, 0.08);
+    --border-subtle: rgba(0, 0, 0, 0.05);
+    --border-strong: rgba(0, 0, 0, 0.16);
+    
+    --text-primary: #09090b;
+    --text-secondary: #52525b;
+    --text-tertiary: #71717a;
+    --text-muted: #a1a1aa;
+    
+    /* Light Mode Primary Button = Pure Jet Black */
+    --btn-primary-bg: #09090b;
+    --btn-primary-hover: #18181b;
+    --btn-primary-text: #ffffff;
+    --btn-primary-border: #000000;
+    --btn-primary-shadow: 0 1.5px 0 0 rgba(255, 255, 255, 0.25) inset, 0 1px 3px rgba(0,0,0,0.2), 0 4px 14px rgba(0,0,0,0.18);
+    
+    --badge-bg: rgba(0, 0, 0, 0.05);
+    --badge-text: #09090b;
+    --badge-border: rgba(0, 0, 0, 0.08);
+
+    --hero-mesh: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0.03) 0px, transparent 60%),
+                 radial-gradient(at 10% 40%, rgba(0, 0, 0, 0.02) 0px, transparent 50%),
+                 radial-gradient(at 90% 60%, rgba(0, 0, 0, 0.02) 0px, transparent 50%);
+  }
+
+  .dark {
+    /* Midnight Obsidian Dark Palette */
+    --bg-page: #09090b;
+    --surface: #121215;
+    --surface-raised: #18181b;
+    --surface-subtle: #27272a;
+    --surface-muted: #18181c;
+    
+    --border: rgba(255, 255, 255, 0.08);
+    --border-subtle: rgba(255, 255, 255, 0.05);
+    --border-strong: rgba(255, 255, 255, 0.16);
+    
+    --text-primary: #f4f4f5;
+    --text-secondary: #a1a1aa;
+    --text-tertiary: #71717a;
+    --text-muted: #52525b;
+    
+    /* Dark Mode Primary Button = Crisp Stark White / Silver */
+    --btn-primary-bg: #ffffff;
+    --btn-primary-hover: #e4e4e7;
+    --btn-primary-text: #09090b;
+    --btn-primary-border: #ffffff;
+    --btn-primary-shadow: 0 1.5px 0 0 rgba(255, 255, 255, 0.8) inset, 0 1px 3px rgba(0,0,0,0.5), 0 0 20px rgba(255,255,255,0.18);
+    
+    --badge-bg: rgba(255, 255, 255, 0.08);
+    --badge-text: #f4f4f5;
+    --badge-border: rgba(255, 255, 255, 0.14);
+
+    --hero-mesh: radial-gradient(at 50% 10%, rgba(255, 255, 255, 0.06) 0px, transparent 60%),
+                 radial-gradient(at 10% 40%, rgba(255, 255, 255, 0.03) 0px, transparent 50%),
+                 radial-gradient(at 90% 60%, rgba(255, 255, 255, 0.02) 0px, transparent 50%);
+  }
+}
+
+@layer base {
+  *, ::before, ::after {
+    box-sizing: border-box;
+    border-color: var(--border);
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  ::selection {
+    background: rgba(0, 0, 0, 0.85);
+    color: #ffffff;
+  }
+
+  .dark ::selection {
+    background: rgba(255, 255, 255, 0.85);
+    color: #000000;
+  }
+}
+
+/* Glassmorphism & Surface Utilities */
+.glass-header {
+  background: rgba(251, 251, 253, 0.8);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.dark .glass-header {
+  background: rgba(9, 9, 11, 0.8);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--border);
+}
+
+.card-obsidian {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 6px 18px rgba(0, 0, 0, 0.03);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .card-obsidian {
+  background: rgba(18, 18, 21, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.02), 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-obsidian:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 1px var(--border-strong), 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.dark .card-obsidian:hover {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+/* Primary Button Styling */
+.btn-primary {
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border: 1px solid var(--btn-primary-border);
+  box-shadow: var(--btn-primary-shadow);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-primary:hover {
+  background-color: var(--btn-primary-hover);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Secondary Button Styling */
+.btn-secondary {
+  background: var(--surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.btn-secondary:hover {
+  background: var(--surface-raised);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+.dark .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Badges */
+.badge-pill {
+  background-color: var(--badge-bg);
+  color: var(--badge-text);
+  border: 1px solid var(--badge-border);
+}
+
+/* Shimmer animations */
+@keyframes sponsorShimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-sponsor-shimmer {
+  background-size: 200% 200%;
+  animation: sponsorShimmer 4s ease infinite;
+}
+
+/* Marquee Scrolling Animations */
+@keyframes scrollUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+@keyframes scrollDown {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0); }
+}
+
+.animate-scroll-up {
+  animation: scrollUp 35s linear infinite;
+}
+
+.animate-scroll-down {
+  animation: scrollDown 35s linear infinite;
+}
+
+.animate-scroll-up:hover,
+.animate-scroll-down:hover {
+  animation-play-state: paused;
+}
+
+/* Mask fade for smooth top and bottom fade */
+.mask-fade-y {
+  mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+/* Simulated VU meter animation */
+@keyframes vuPulse {
+  0%, 100% { height: 35%; }
+  25% { height: 85%; }
+  50% { height: 60%; }
+  75% { height: 95%; }
+}
+
+.animate-vu-1 { animation: vuPulse 1.2s ease-in-out infinite; }
+.animate-vu-2 { animation: vuPulse 0.9s ease-in-out infinite 0.2s; }
+.animate-vu-3 { animation: vuPulse 1.4s ease-in-out infinite 0.4s; }
+
+/* Custom Mac Dock Icon Hover */
+.dock-item {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.dock-item:hover {
+  transform: translateY(-6px) scale(1.15);
+}
