@@ -27,7 +27,7 @@ export function BrandLogo({
           priority={priority}
         />
       </div>
-      {/* {showWordmark && <span className={wordmarkClassName}>vDeck</span>} */}
+      {showWordmark && <span className={wordmarkClassName}>vMix Deck</span>}
     </span>
   );
 }
