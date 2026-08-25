@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTheme } from "./ThemeProvider";
+import { BrandLogo } from "./BrandLogo";
 import {
   Sun,
   Moon,
@@ -12,8 +13,6 @@ import {
   Download,
   Menu,
   X,
-  Radio,
-  Tv,
 } from "lucide-react";
 
 export function Header() {
@@ -37,35 +36,31 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 flex flex-col">
       <div className="relative w-full glass-header">
         <div className="relative mx-auto max-w-6xl px-5 sm:px-6">
-          <nav className="flex items-center justify-between h-16">
+          <nav className="grid grid-cols-[auto_1fr_auto] items-center gap-3 h-16">
             {/* Logo */}
             <Link
               href="/"
-              className="flex items-center gap-2.5 group transition-transform active:scale-[0.98]"
+              className="flex items-center group transition-transform active:scale-[0.98] shrink-0"
             >
-              <div className="w-8 h-8 rounded-lg bg-black dark:bg-white text-white dark:text-black flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
-                <Tv className="w-4.5 h-4.5 stroke-[2.2]" />
-              </div>
-              <div className="flex items-center gap-1.5">
-                <span className="text-base font-semibold tracking-tight text-neutral-900 dark:text-white">
-                  vMix Deck
-                </span>
-                <span className="hidden sm:inline-flex items-center gap-1 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider rounded-md bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20">
-                  <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
-                  Live
-                </span>
-              </div>
+              <BrandLogo
+                priority
+                className="group-hover:opacity-90 transition-opacity"
+              />
+              <span className="ml-1.5 hidden sm:inline-flex items-center gap-1 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider rounded-md bg-red-500/10 text-red-600 dark:text-red-400 border border-red-500/20">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+                Live
+              </span>
             </Link>
 
             {/* Desktop Nav Links */}
-            <div className="hidden md:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
+            <div className="hidden md:flex items-center justify-center gap-0.5 min-w-0">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
                 return (
                   <Link
                     key={link.label}
                     href={link.href}
-                    className={`px-3.5 py-1.5 text-sm font-medium rounded-lg transition-colors duration-150 flex items-center gap-1.5 ${
+                    className={`px-2.5 lg:px-3.5 py-1.5 text-sm font-medium rounded-lg transition-colors duration-150 flex items-center gap-1.5 shrink-0 ${
                       isActive
                         ? "text-neutral-950 dark:text-white bg-black/5 dark:bg-white/10 font-semibold"
                         : "text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white hover:bg-black/[0.04] dark:hover:bg-white/5"
@@ -83,14 +78,14 @@ export function Header() {
             </div>
 
             {/* Right Action Controls */}
-            <div className="hidden md:flex items-center gap-2.5">
+            <div className="hidden md:flex items-center justify-end gap-2.5 shrink-0">
               {/* GitHub Stars */}
               <a
                 href="https://github.com/francisbenjamin/vmixdeck"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/25 bg-black/[0.02] dark:bg-white/[0.03] transition-all"
-                aria-label="Star vMix Deck on GitHub"
+                className="group relative z-10 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-black/10 dark:border-white/10 hover:border-black/20 dark:hover:border-white/25 bg-black/[0.02] dark:bg-white/[0.03] transition-all"
+                aria-label="Star vDeck on GitHub"
               >
                 <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-500 group-hover:scale-110 transition-transform" />
                 <span className="font-semibold text-neutral-800 dark:text-neutral-200">
@@ -138,7 +133,7 @@ export function Header() {
             </div>
 
             {/* Mobile Menu Toggle */}
-            <div className="flex md:hidden items-center gap-2">
+            <div className="flex md:hidden items-center justify-end gap-2 col-start-3">
               <button
                 onClick={toggleTheme}
                 className="w-8 h-8 rounded-full flex items-center justify-center text-neutral-600 dark:text-neutral-400"
@@ -193,7 +188,7 @@ export function Header() {
               className="btn-primary w-full py-2.5 rounded-xl text-center text-sm font-semibold flex items-center justify-center gap-2"
             >
               <Download className="w-4 h-4" />
-              <span>Download vMix Deck</span>
+              <span>Download vDeck</span>
             </Link>
             <Link
               href="/thanks"

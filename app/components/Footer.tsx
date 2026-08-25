@@ -2,8 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
-import { Tv, MessageSquare, Heart, Shield, Radio } from "lucide-react";
+import { MessageSquare, Heart, Shield, Radio } from "lucide-react";
 import { GithubIcon, TwitterIcon, DiscordIcon } from "./Icons";
+import { BrandLogo } from "./BrandLogo";
 
 export function Footer() {
   return (
@@ -12,13 +13,8 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12 mb-12">
           {/* Brand Col */}
           <div className="col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-8 h-8 rounded-lg bg-black dark:bg-white text-white dark:text-black flex items-center justify-center shadow-sm">
-                <Tv className="w-4.5 h-4.5 stroke-[2.2]" />
-              </div>
-              <span className="text-base font-semibold tracking-tight text-neutral-900 dark:text-white">
-                vMix Deck
-              </span>
+            <Link href="/" className="inline-flex group">
+              <BrandLogo />
             </Link>
             <p className="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed max-w-xs">
               Professional wireless switcher, custom action deck, and low-latency Tally lights for vMix live productions.
@@ -189,7 +185,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-black/[0.06] dark:border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500 dark:text-neutral-400">
-          <p>© {new Date().getFullYear()} vMix Deck. Built for live broadcast professionals.</p>
+          <p>© {new Date().getFullYear()} vDeck. Built for live broadcast professionals.</p>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-emerald-500" />
